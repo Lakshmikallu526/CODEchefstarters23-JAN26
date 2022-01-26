@@ -1,0 +1,5 @@
+t=int(input())
+for i in range(0,t):
+ l=list(map(int,input().split()))
+ a,b,c=l[0],l[1],l[2]
+ print((a*c)-(a*b))
